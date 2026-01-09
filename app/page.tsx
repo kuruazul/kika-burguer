@@ -27,8 +27,8 @@ interface MenuItem {
 
 const CATEGORIES: { id: CategoryId; label: string }[] = [
   { id: 'antojitos', label: 'Antojitos' },
-  { id: 'rapidas', label: 'Comidas Rápidas' },
-  { id: 'hamburguesas', label: 'Hamburguesas' },
+  // { id: 'rapidas', label: 'Comidas Rápidas' },
+  // { id: 'hamburguesas', label: 'Hamburguesas' },
 ];
 
 const HERO_TITLES = ['Antojitos', 'Hamburguesas', 'Comidas'];
@@ -309,7 +309,7 @@ function MenuContent() {
           <div className="rounded-2xl overflow-hidden border border-stone-800 bg-stone-900/50 shadow-2xl relative group">
             <div className="aspect-video w-full relative">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1436.8920155256565!2d-95.27581781223945!3d18.33964998319688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c26b52787e68cf%3A0xe21683070cd058!2sAntojitos%20Kika!5e0!3m2!1ses!2smx!4v1704778000000!5m2!1ses!2smx"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d473.0950312946887!2d-95.2114303!3d18.4491916!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c273001a71d72d%3A0x4e6a4dc1012219c8!2sAntojitos%20Tia%20kika!5e0!3m2!1ses!2smx!4v1767936244580!5m2!1ses!2smx"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
