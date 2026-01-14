@@ -22,6 +22,15 @@ export default function Footer() {
       <p className="text-stone-600 text-xs">
         © {new Date().getFullYear()} Antojitos Kika. Precios sujetos a cambio sin previo aviso.
       </p>
+      {/* letras chicas para leyeda de derechos reservados */}
+      <p className="text-stone-600 text-xs">
+        clz-solutions, Todos los derechos reservados.
+      </p>
+      {/* correo para contactar a dearrollador y leyenda de "Quieres uan pagina asi?"*/}
+      <p className="text-stone-600 text-xs">
+        Quieres una pagina asi?
+        Contacto: <a href="mailto:ejcb200@gmail.com">ejcb200@gmail.com</a>
+      </p>
     </div>
   );
 }
